@@ -38,6 +38,12 @@ h3{
     color: rgb(161, 161, 161);
 }
 
+.menu{
+    display: grid;
+    
+}
+
+
 
 @keyframes logo{
     form{
