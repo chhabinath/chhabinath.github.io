@@ -4,7 +4,7 @@ function validate()
 	var password=document.getElementById('pswd').value;
 	if(username=="admin"&&password=="12345")
 	{
-		alert("login SUCCESSFUL");
+		window.open("welcome.html","_self");
 	}
 	else
 	{

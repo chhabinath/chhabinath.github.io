@@ -32,6 +32,6 @@ function signup()
 		else
 		{
 		alert("sign up successful");
-		window.open("login.html","_self");
+		window.open("index.html","_self");
 		}
 }
