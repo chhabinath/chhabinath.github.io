@@ -84,7 +84,7 @@ body .landing-page .info .impression h1 {
     color: #E2E2E5;
     font-size: 64px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: normal;
     letter-spacing: 0.64px;
 }
@@ -93,7 +93,8 @@ body .landing-page .info .impression p {
     color: #D5D5DB;
     font-size: 35px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 100;
+    letter-spacing: 0.35px;
     line-height: normal;
     letter-spacing: 0.35px;
 }
@@ -101,7 +102,7 @@ body .landing-page .info .impression p {
 body .landing-page .info .impression button {
     width: 186px;
     height: 48px;
-    z-index: 3;
+    z-index: 9999;
     flex-shrink: 0;
     border-radius: 12px;
     background: var(--Secondary, #C91151);
@@ -128,22 +129,55 @@ body .landing-page .info .impression .eclipse-2 .image2 {
     z-index: 1;
 }
 
+
+/* skills section  */
+
 body .skills-section {
     padding: 6%;
 }
 
 body .skills-section .skills-container p span {
+    position: relative;
     z-index: 3;
     color: #11C92E;
     font-size: 20px;
     font-style: normal;
-    font-weight: 300;
+    font-weight: 10;
+    font-stretch: ultra-condensed;
+    letter-spacing: -0.5px;
     line-height: normal;
     letter-spacing: 0.2px;
 }
 
 body .skills-section .skills-container h5 {
+    color: #D5D5DB;
+    font-size: 20px;
+}
+
+body .skills-section .skills-container h6 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 10;
+    color: #D5D5DB;
+}
+
+body .skills-section .skills-container .skills-box {
+    width: 380px;
+    height: 395px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    background: #151620;
+}
+
+body .skills-section .skills-container .skills-box p {
     color: #E2E2E5;
+    text-align: center;
+    font-family: Heebo;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 100;
+    line-height: normal;
+    letter-spacing: 0.2px;
 }
 
 
