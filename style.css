@@ -1,0 +1,184 @@
+/* whole website  */
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Heebo';
+}
+
+
+/* Scroll bar  */
+
+::-webkit-scrollbar {
+    background: #181923;
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    /* From https://css.glass */
+    background: rgba(24, 25, 35, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+::-webkit-scrollbar-thumb :hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+
+/* section 1 landing page */
+
+body .landing-page {
+    background: #181923;
+}
+
+
+/* pink eclipse-1 */
+
+body .landing-page .eclipse-1 {
+    position: relative;
+}
+
+body .landing-page .eclipse-1 .image1 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    filter: blur(180px);
+    z-index: 1;
+}
+
+body .landing-page .info {
+    display: flex;
+    gap: 10%;
+    padding: 6%;
+    /* z-index: 2; */
+    /* border: beige solid 2px; */
+}
+
+body .landing-page .info .impression {
+    /* border: rgb(236, 1, 1) solid 2px; */
+    /* position: absolute; */
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 21px;
+    padding-top: 6rem;
+    bottom: 0;
+    left: 0;
+    color: aliceblue;
+}
+
+body .landing-page .info .impression h1 {
+    color: #E2E2E5;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.64px;
+}
+
+body .landing-page .info .impression p {
+    color: #D5D5DB;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.35px;
+}
+
+body .landing-page .info .impression button {
+    width: 186px;
+    height: 48px;
+    z-index: 3;
+    flex-shrink: 0;
+    border-radius: 12px;
+    background: var(--Secondary, #C91151);
+    border: none;
+    color: #D5D5DB;
+    font-size: 20px;
+}
+
+body .landing-page .info .profile-pic {
+    z-index: 3;
+    /* border: beige solid 2px; */
+}
+
+
+/* eclipse 2 : blue*/
+
+body .landing-page .info .impression .eclipse-2 {
+    position: relative;
+}
+
+body .landing-page .info .impression .eclipse-2 .image2 {
+    position: absolute;
+    filter: blur(180px);
+    z-index: 1;
+}
+
+body .skills-section {
+    padding: 6%;
+}
+
+body .skills-section .skills-container p span {
+    z-index: 3;
+    color: #11C92E;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.2px;
+}
+
+body .skills-section .skills-container h5 {
+    color: #E2E2E5;
+}
+
+
+/* eclipse 3 : pink*/
+
+body .landing-page .eclipse-3 {
+    position: relative;
+}
+
+body .landing-page .eclipse-3 .image3 {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    filter: blur(180px);
+    z-index: 1;
+}
+
+body .projects-section {
+    background: #E2E2E5;
+}
+
+
+/* about me  */
+
+body .about-me {
+    background-color: #181923;
+}
+
+body .arrow-down,
+.eclipse-4,
+.eclipse-5,
+.arrow {
+    position: absolute;
+}
+
+body .about-me .about p span {
+    color: green;
+}
