@@ -6,11 +6,11 @@ Hello! Welcome to my portfolio repository. Here, you'll find a collection of my 
 I am passionate about [mention your interests, aspirations, or goals related to your field].
 
 ## About Me
-- **Name**: [Your Full Name]
-- **Location**: [Your Location]
-- **Email**: [Your Email Address]
-- **LinkedIn**: [Your LinkedIn Profile URL]
-- **Portfolio Website**: [Your Portfolio Website URL]
+- **Name**: Chhabinath Sahoo
+- **Location**: Rourkela
+- **Email**: Say hello at [chhabinath1519@gmail.com](mailto:chhabinath1519@gmail.com)
+- **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/chhabinath-sahoo/)
+- **Portfolio Website**: [Portfolio Website URL](chhabinath.github.io)
 
 ## Projects
 ### Project 1 Name
@@ -34,13 +34,14 @@ I am passionate about [mention your interests, aspirations, or goals related to 
 - Any noteworthy achievements, awards, or certifications related to your field.
 
 ## Education
-- Degree: [Your Degree Title]
-- University: [University Name]
-- Year of Graduation: [Year]
+- Degree: B-Tech
+- University: C.V. Raman Global University
+- Year of Graduation: 2023
 
 ## Interests
-- Mention your hobbies or interests outside of work.
+- Sketching
+- Photography
 
 ## Get in Touch
-- Feel free to reach out to me via email at [Your Email Address].
-- Connect with me on LinkedIn: [Your LinkedIn Profile URL].
+- Feel free to reach out to me via email at [chhabinath1519@gmail.com](mailto:chhabinath1519@gmail.com).
+- Connect with me on LinkedIn: https://www.linkedin.com/in/chhabinath-sahoo/.
