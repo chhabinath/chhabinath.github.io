@@ -10,7 +10,7 @@ I am passionate about [mention your interests, aspirations, or goals related to 
 - **Location**: Rourkela
 - **Email**: Say hello at [chhabinath1519@gmail.com](mailto:chhabinath1519@gmail.com)
 - **LinkedIn**: [My LinkedIn Profile](https://www.linkedin.com/in/chhabinath-sahoo/)
-- **Portfolio Website**: [Portfolio Website URL](chhabinath.github.io)
+- **Portfolio Website**: [Portfolio Website URL](https://chhabinath.github.io)
 
 ## Projects
 ### Project 1 Name
