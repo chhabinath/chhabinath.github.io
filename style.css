@@ -37,6 +37,10 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 /* section 1 landing page */
 
@@ -76,7 +80,7 @@ body .landing-page .info .impression {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 21px;
+    gap: 30px;
     padding-top: 6rem;
     bottom: 0;
     left: 0;
@@ -116,6 +120,8 @@ body .landing-page .info .impression button {
 }
 
 body .landing-page .info .profile-pic {
+    padding-top: 60px;
+    padding-left: 200px;
     z-index: 3;
     /* border: beige solid 2px; */
 }
@@ -221,6 +227,7 @@ body .skills-section .skills-container .skills-box .skills-img img h1{
 }
 
 body .skills-section .skills-container .skills-grid .skills-box h1 {
+    padding-top: 10px;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -232,6 +239,7 @@ body .skills-section .skills-container .skills-grid .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-grid2 .skills-box h1 {
+    padding-top: 10px;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -243,6 +251,7 @@ body .skills-section .skills-container .skills-grid2 .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-grid3 .skills-box h1 {
+    padding-top: 10px;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -254,6 +263,9 @@ body .skills-section .skills-container .skills-grid3 .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-box p {
+    padding-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     color: #8A8A8F;
     text-align: center;
     font-family: Heebo;
