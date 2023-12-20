@@ -203,10 +203,10 @@ body .skills-section .skills-container .skills-grid3{
 body .skills-section .skills-container .skills-box  {
     position: relative;
     z-index: 3;
-    width: 420px;
-    height: 450px;
+    width: 23.75rem;
+    height: 28rem;
     flex-shrink: 0;
-    border-radius: 20px;
+    border-radius: 1.25rem;
     background: #151620;
 }
 
@@ -216,6 +216,14 @@ body .skills-section .skills-container .skills-box .skills-img {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+body .skills-section .skills-container .skills-box .skills-img-2 {
+    padding: 30px 20px 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
 }
 
 body .skills-section .skills-container .skills-box .skills-img img h1{
@@ -291,10 +299,58 @@ body .landing-page .eclipse-3 .image3 {
     z-index: 1;
 }
 
+ /* projects-section */
+
 body .projects-section {
     background: #E2E2E5;
 }
 
+body .projects-section .projects {
+    padding: 6rem;
+}
+
+body .projects-section .projects p span{
+    color: #11C92E;
+    font-family: Heebo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+}
+
+body .projects-section .projects h6{
+    color: #151620;
+    font-family: Heebo;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+}
+
+
+body .arrow-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0vh;
+    position: relative;
+}
+
+body .arrow-down .white{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #ffff;
+}
+body .arrow-down .white img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
 
 /* about me  */
 
@@ -302,13 +358,56 @@ body .about-me {
     background-color: #181923;
 }
 
-body .arrow-down,
-.eclipse-4,
-.eclipse-5,
-.arrow {
-    position: absolute;
+body .about-me .about{
+    padding: 6rem;
 }
 
 body .about-me .about p span {
-    color: green;
+    color: #11C92E;
+    font-family: Heebo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+}
+
+body .about-me .about h6{
+    color: #E2E2E5;
+    font-family: Heebo;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.02rem;
+}
+
+body .about-me .about .about-container{
+    display: flex;
+}
+
+body .about-me .about .about-container p{
+    padding-top: 2rem;
+    width: 35.4375rem;
+    color: #F4F4F4;
+    font-family: Heebo;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.0125rem;
+}
+
+body .about-me .about .about-container .image-container{
+    padding-top: 3rem;
+    padding-left: 18rem;
+    border-radius: 1.25rem;
+    background-color: #181923;
+    display: inline-block;
+}
+
+body .about-me .about .about-container img{
+    width: 26.9375rem;
+    height: 26.6875rem; 
+    border-radius: inherit;
 }
