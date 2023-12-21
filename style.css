@@ -6,12 +6,11 @@
     font-family: 'Heebo';
 }
 
-
 /* Scroll bar  */
 
 ::-webkit-scrollbar {
     background: #181923;
-    width: 10px;
+    width: 0.625rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -21,7 +20,7 @@
 ::-webkit-scrollbar-thumb {
     /* From https://css.glass */
     background: rgba(24, 25, 35, 0.3);
-    border-radius: 16px;
+    border-radius: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -30,7 +29,7 @@
 
 ::-webkit-scrollbar-thumb :hover {
     background: rgba(255, 255, 255, 0.3);
-    border-radius: 16px;
+    border-radius: 1rem;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -40,7 +39,6 @@
 html{
     scroll-behavior: smooth;
 }
-
 
 /* section 1 landing page */
 
@@ -80,7 +78,7 @@ body .landing-page .info .impression {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 30px;
+    gap: 1.875rem;
     padding-top: 6rem;
     bottom: 0;
     left: 0;
@@ -89,43 +87,52 @@ body .landing-page .info .impression {
 
 body .landing-page .info .impression h1 {
     color: #E2E2E5;
-    font-size: 64px;
+    font-size: 4rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.64px;
+    letter-spacing: 0.04rem;
 }
 
 body .landing-page .info .impression p {
     color: #D5D5DB;
-    font-size: 35px;
+    font-family: Poppins;
+    font-size: 2.1875rem;
     font-style: normal;
     font-weight: 100;
-    letter-spacing: 0.35px;
     line-height: normal;
-    letter-spacing: 0.35px;
+    letter-spacing: 0.02188rem;
+}
+
+body .landing-page .info .impression p span{
+    color: #D5D5DB;
+    font-family: Poppins;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.02188rem;
 }
 
 body .landing-page .info .impression button {
     position: relative;
-    width: 186px;
-    height: 48px;
+    width: 11.625rem;
+    height: 3rem;
     z-index: 3;
     flex-shrink: 0;
-    border-radius: 12px;
+    border-radius: 0.75rem;
     background: var(--Secondary, #C91151);
     border: none;
     color: #D5D5DB;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 body .landing-page .info .profile-pic {
-    padding-top: 60px;
-    padding-left: 200px;
+    padding-top: 3.75rem;
+    padding-left: 12.5rem;
     z-index: 3;
     /* border: beige solid 2px; */
 }
-
 
 /* eclipse 2 : blue*/
 
@@ -140,7 +147,6 @@ body .landing-page .info .impression .eclipse-2 .image2 {
     z-index: 1;
 }
 
-
 /* skills section  */
 
 body .skills-section {
@@ -150,45 +156,45 @@ body .skills-section {
 
 }
 
-
 body .skills-section .skills-container p span {
     position: relative;
     z-index: 3;
     color: #11C92E;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 200;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.031rem;
     line-height: normal;
-    letter-spacing: 0.2px;
+    letter-spacing: 0.013rem;
 }
 
 body .skills-section .skills-container h5 {
     color: #D5D5DB;
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 body .skills-section .skills-container h6 {
-    padding: 50px;
+    padding: 3.125rem;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 300;
     color: #D5D5DB;
 }
 body .skills-section .skills-container .skills-grid{
+    padding-left: 2.375rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 50px;
+    row-gap: 3.125rem;
 }
 
 body .skills-section .skills-container .skills-grid2{
-    padding-top: 50px;
+    padding-top: 3.125rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(2, auto);
     justify-content: center;
-    gap: 30px;
+    gap: 4.375rem;
 }
 
 body .skills-section .skills-container .skills-grid3{
@@ -196,9 +202,6 @@ body .skills-section .skills-container .skills-grid3{
     justify-content: center;
     align-items: center;
 }
-
-
-
 
 body .skills-section .skills-container .skills-box  {
     position: relative;
@@ -210,20 +213,19 @@ body .skills-section .skills-container .skills-box  {
     background: #151620;
 }
 
-
 body .skills-section .skills-container .skills-box .skills-img {
-    padding: 30px 20px 20px 10px;
+    padding: 1.875rem 1.25rem 1.25rem 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 body .skills-section .skills-container .skills-box .skills-img-2 {
-    padding: 30px 20px 20px 10px;
+    padding: 1.875rem 1.25rem 1.25rem 0.625rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 0.625rem;
 }
 
 body .skills-section .skills-container .skills-box .skills-img img h1{
@@ -235,7 +237,7 @@ body .skills-section .skills-container .skills-box .skills-img img h1{
 }
 
 body .skills-section .skills-container .skills-grid .skills-box h1 {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -247,7 +249,7 @@ body .skills-section .skills-container .skills-grid .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-grid2 .skills-box h1 {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -259,7 +261,7 @@ body .skills-section .skills-container .skills-grid2 .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-grid3 .skills-box h1 {
-    padding-top: 10px;
+    padding-top: 0.625rem;
     color: #E2E2E5;
     text-align: center;
     font-family: Heebo;
@@ -271,9 +273,9 @@ body .skills-section .skills-container .skills-grid3 .skills-box h1 {
 }
 
 body .skills-section .skills-container .skills-box p {
-    padding-top: 30px;
-    margin-left: 50px;
-    margin-right: 50px;
+    padding-top: 1.875rem;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
     color: #8A8A8F;
     text-align: center;
     font-family: Heebo;
@@ -283,7 +285,6 @@ body .skills-section .skills-container .skills-box p {
     line-height: normal;
     letter-spacing: 0.0125rem;
 }
-
 
 /* eclipse 3 : pink*/
 
