@@ -329,6 +329,7 @@ body .projects-section .projects p span {
 }
 
 body .projects-section .projects h6 {
+    padding-top: 0.25rem;
     color: #151620;
     font-family: Heebo;
     font-size: 2rem;
@@ -456,6 +457,7 @@ body .about-me .about p span {
 }
 
 body .about-me .about h6 {
+    padding-top: 2rem;
     color: #E2E2E5;
     font-family: Heebo;
     font-size: 2rem;
@@ -471,7 +473,7 @@ body .about-me .about .about-container {
 
 body .about-me .about .about-container p {
     padding-top: 2rem;
-    width: 35.4375rem;
+    width: 47rem;
     color: #F4F4F4;
     font-family: Heebo;
     font-size: 1.25rem;
@@ -479,14 +481,15 @@ body .about-me .about .about-container p {
     font-weight: 300;
     line-height: normal;
     letter-spacing: 0.0125rem;
+    /* border: 1px solid black; */
 }
 
 body .about-me .about .about-container .image-container {
-    padding-top: 3rem;
-    padding-left: 18rem;
+    padding-left: 15rem;
     border-radius: 1.25rem;
     background-color: #181923;
     display: inline-block;
+    /* border: 1px solid black; */
 }
 
 body .about-me .about .about-container img {
@@ -829,6 +832,7 @@ body .about-me .about .about-container img {
     }
     body .about-me .about .about-container {
         display: flex;
+        
     }
     body .about-me .about .about-container p {
         padding-top: 1.75rem;
