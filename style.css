@@ -1,5 +1,6 @@
 /* just to check  */
 
+
 /* whole website  */
 
 * {
@@ -39,15 +40,16 @@
     border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-html {
+body {
     scroll-behavior: smooth;
-    
 }
 
 
 /* section 1 landing page */
 
 body .landing-page {
+    width: 100%;
+    height: 100%;
     position: relative;
     background: #181923;
 }
@@ -57,6 +59,7 @@ body .landing-page {
 
 body .landing-page .eclipse-1 {
     position: relative;
+    /* overflow: hidden; */
 }
 
 body .landing-page .eclipse-1 .image1 {
@@ -70,21 +73,22 @@ body .landing-page .eclipse-1 .image1 {
 body .landing-page .info {
     position: relative;
     display: flex;
-    gap: 10%;
-    padding: 6%;
+    /* gap: 7vw; */
+    padding: 7vw;
     z-index: 1;
     /* border: beige solid 2px; */
 }
 
 body .landing-page .info .impression {
     /* border: rgb(236, 1, 1) solid 2px; */
+    width: 45vw;
     position: relative;
     z-index: 2;
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 1.875rem;
-    padding-top: 6rem;
+    gap: 3vw;
+    margin-top: 6vw;
     bottom: 0;
     left: 0;
     color: aliceblue;
@@ -92,51 +96,57 @@ body .landing-page .info .impression {
 
 body .landing-page .info .impression h1 {
     color: #E2E2E5;
-    font-size: 4rem;
+    font-size: 3.6vw;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    letter-spacing: 0.04rem;
+    letter-spacing: 0.04vw;
 }
 
 body .landing-page .info .impression p {
     color: #D5D5DB;
     font-family: Poppins;
-    font-size: 2.1875rem;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 100;
     line-height: normal;
-    letter-spacing: 0.02188rem;
+    letter-spacing: 0.02188vw;
 }
 
 body .landing-page .info .impression p span {
     color: #D5D5DB;
     font-family: Poppins;
-    font-size: 2.1875rem;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    letter-spacing: 0.02188rem;
+    letter-spacing: 0.02188vw;
 }
 
 body .landing-page .info .impression button {
     position: relative;
-    width: 11.625rem;
-    height: 3rem;
+    width: 13vw;
+    height: 3.5vw;
     z-index: 3;
     flex-shrink: 0;
-    border-radius: 0.75rem;
+    border-radius: 0.75vw;
     background: var(--Secondary, #C91151);
     border: none;
     color: #D5D5DB;
-    font-size: 1.25rem;
+    font-size: 1.4vw;
 }
 
 body .landing-page .info .profile-pic {
-    padding-top: 3.75rem;
-    padding-left: 12.5rem;
+    width: 40vw;
+    margin-top: 2vw;
+    margin-left: 12vw;
     z-index: 3;
     /* border: beige solid 2px; */
+}
+
+body .landing-page .info .profile-pic .my-image {
+    max-width: 100%;
+    height: auto;
 }
 
 
@@ -166,7 +176,7 @@ body .skills-section .skills-container p span {
     position: relative;
     z-index: 3;
     color: #11C92E;
-    font-size: 1.25rem;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 200;
     letter-spacing: -0.031rem;
@@ -176,7 +186,7 @@ body .skills-section .skills-container p span {
 
 body .skills-section .skills-container h5 {
     color: #D5D5DB;
-    font-size: 1.875rem;
+    font-size: 2vw;
 }
 
 body .skills-section .skills-container h6 {
@@ -188,7 +198,6 @@ body .skills-section .skills-container h6 {
 }
 
 body .skills-section .skills-container .skills-grid {
-    padding-left: 2.375rem;
     position: relative;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -347,24 +356,24 @@ body .projects-section .projects .projects-grid {
     gap: 8rem;
 }
 
-body .projects-section .projects .projects-grid .project-1{
+body .projects-section .projects .projects-grid .project-1 {
     padding-top: 2.75rem;
     /* padding: 4rem 1rem 1rem 3rem; */
     border-radius: 1.25rem;
     /* border: 1px solid black; */
-    
 }
-body .projects-section .projects .projects-grid .project-1 img{
+
+body .projects-section .projects .projects-grid .project-1 img {
     width: 29.125rem;
     height: 19.125rem;
-    flex-shrink: 0; 
+    flex-shrink: 0;
     border-radius: 1.25rem;
     /* border: 1px solid black; */
     /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px; */
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
 }
 
-body .projects-section .projects .projects-grid .project-1 h3{  
+body .projects-section .projects .projects-grid .project-1 h3 {
     padding-top: 1rem;
     color: #151620;
     font-family: Heebo;
@@ -374,7 +383,8 @@ body .projects-section .projects .projects-grid .project-1 h3{
     line-height: normal;
     letter-spacing: 0.015rem;
 }
-body .projects-section .projects .projects-grid .project-1 p{
+
+body .projects-section .projects .projects-grid .project-1 p {
     width: 29.125rem;
     color: #151620;
     font-family: Heebo;
@@ -385,7 +395,7 @@ body .projects-section .projects .projects-grid .project-1 p{
     letter-spacing: 0.01rem;
 }
 
-body .projects-section .projects .projects-grid .project-1 p span{
+body .projects-section .projects .projects-grid .project-1 p span {
     color: #151620;
     font-family: Heebo;
     font-size: 1rem;
@@ -395,25 +405,25 @@ body .projects-section .projects .projects-grid .project-1 p span{
     letter-spacing: 0.01rem;
 }
 
-body .projects-section .projects .projects-grid .project-2{
+body .projects-section .projects .projects-grid .project-2 {
     padding-top: 2.75rem;
     /* padding: 4rem 1rem 1rem 3rem; */
     border-radius: 1.25rem;
     /* border: 1px solid black; */
 }
 
-body .projects-section .projects .projects-grid .project-2 img{
+body .projects-section .projects .projects-grid .project-2 img {
     width: 29.125rem;
     height: 19.125rem;
     flex-shrink: 0;
     border-radius: 1.25rem;
-    /* border: 1px solid black; */  
+    /* border: 1px solid black; */
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 1px 0px, rgba(60, 64, 67, 0.15) 0px 1px 2px 1px;
-    transition: transform 0.3s ease-in-out; 
+    transition: transform 0.3s ease-in-out;
     /* border: #a2a2a2 1px solid; */
 }
 
-body .projects-section .projects .projects-grid .project-2 h3{
+body .projects-section .projects .projects-grid .project-2 h3 {
     padding-top: 1rem;
     font-size: 2rem;
     color: #151620;
@@ -425,7 +435,7 @@ body .projects-section .projects .projects-grid .project-2 h3{
     letter-spacing: 0.015rem;
 }
 
-body .projects-section .projects .projects-grid .project-2 p{
+body .projects-section .projects .projects-grid .project-2 p {
     width: 29.125rem;
     color: #151620;
     font-family: Heebo;
@@ -436,7 +446,7 @@ body .projects-section .projects .projects-grid .project-2 p{
     letter-spacing: 0.01rem;
 }
 
-body .projects-section .projects .projects-grid .project-2 p span{
+body .projects-section .projects .projects-grid .project-2 p span {
     color: #151620;
     font-family: Heebo;
     font-size: 1rem;
@@ -445,7 +455,6 @@ body .projects-section .projects .projects-grid .project-2 p span{
     line-height: normal;
     letter-spacing: 0.01rem;
 }
-
 
 body .arrow-down {
     display: flex;
@@ -531,376 +540,4 @@ body .about-me .about .about-container img {
     width: 26.9375rem;
     height: 26.6875rem;
     border-radius: inherit;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-/* for screen Size 1358*757 */
-
-@media (max-width: 1358px) {
-    * {
-        padding: 0;
-        margin: 0;
-        font-family: 'Heebo';
-    }
-    /* Scroll bar  */
-     ::-webkit-scrollbar {
-        background: #181923;
-        width: 0.625rem;
-    }
-     ::-webkit-scrollbar-track {
-        display: none;
-    }
-     ::-webkit-scrollbar-thumb {
-        /* From https://css.glass */
-        background: rgba(24, 25, 35, 0.3);
-        border-radius: 1rem;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-     ::-webkit-scrollbar-thumb :hover {
-        background: rgba(255, 255, 255, 0.3);
-        border-radius: 1rem;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(5px);
-        -webkit-backdrop-filter: blur(5px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
-    html {
-        scroll-behavior: smooth;
-    }
-    /* section 1 landing page */
-    body .landing-page {
-        position: relative;
-        background: #181923;
-    }
-    /* pink eclipse-1 */
-    body .landing-page .eclipse-1 {
-        position: relative;
-    }
-    body .landing-page .eclipse-1 .image1 {
-        position: absolute;
-        right: 0px;
-        top: 0px;
-        filter: blur(180px);
-        z-index: 1;
-    }
-    body .landing-page .info {
-        position: relative;
-        display: flex;
-        gap: 10%;
-        padding: 6%;
-        z-index: 1;
-        /* border: beige solid 2px; */
-    }
-    body .landing-page .info .impression {
-        /* border: rgb(236, 1, 1) solid 2px; */
-        position: relative;
-        z-index: 2;
-        display: inline-flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 3.125rem;
-        padding-top: 5.625rem;
-        bottom: 0;
-        left: 0;
-        color: aliceblue;
-    }
-    body .landing-page .info .impression h1 {
-        color: #E2E2E5;
-        font-size: 3.125rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.04rem;
-    }
-    body .landing-page .info .impression p {
-        color: #D5D5DB;
-        font-family: Poppins;
-        font-size: 1.563rem;
-        font-style: normal;
-        font-weight: 100;
-        line-height: normal;
-        letter-spacing: 0.02188rem;
-    }
-    body .landing-page .info .impression p span {
-        color: #D5D5DB;
-        font-family: Poppins;
-        font-size: 1.563rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.02188rem;
-    }
-    body .landing-page .info .impression button {
-        position: relative;
-        width: 10rem;
-        height: 3rem;
-        z-index: 3;
-        flex-shrink: 0;
-        border-radius: 0.625rem;
-        background: var(--Secondary, #C91151);
-        border: none;
-        color: #D5D5DB;
-        font-size: 1rem;
-    }
-    body .landing-page .info .profile-pic {
-        padding-top: 3.75rem;
-        padding-left: 12.5rem;
-        z-index: 3;
-        /* border: beige solid 2px; */
-    }
-    /* eclipse 2 : blue*/
-    body .landing-page .info .impression .eclipse-2 {
-        position: relative;
-        z-index: 0;
-    }
-    body .landing-page .info .impression .eclipse-2 .image2 {
-        position: absolute;
-        filter: blur(180px);
-        z-index: 1;
-    }
-    /* skills section  */
-    body .skills-section {
-        position: relative;
-        z-index: 1;
-        padding: 6%;
-    }
-    body .skills-section .skills-container p span {
-        position: relative;
-        z-index: 3;
-        color: #11C92E;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 200;
-        letter-spacing: -0.031rem;
-        line-height: normal;
-        letter-spacing: 0.013rem;
-    }
-    body .skills-section .skills-container h5 {
-        color: #D5D5DB;
-        font-size: 1.75rem;
-    }
-    body .skills-section .skills-container h6 {
-        padding: 3.125rem;
-        text-align: center;
-        font-size: 1.25rem;
-        font-weight: 300;
-        color: #D5D5DB;
-    }
-    body .skills-section .skills-container .skills-grid {
-        padding-left: 2.375rem;
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        row-gap: 3.125rem;
-    }
-    body .skills-section .skills-container .skills-grid2 {
-        padding-top: 3.125rem;
-        position: relative;
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-        justify-content: center;
-        gap: 1.5rem;
-    }
-    body .skills-section .skills-container .skills-grid3 {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    body .skills-section .skills-container .skills-box {
-        position: relative;
-        z-index: 3;
-        width: 22.5rem;
-        height: 28.375rem;
-        flex-shrink: 0;
-        border-radius: 1.25rem;
-        background: #151620;
-    }
-    body .skills-section .skills-container .skills-box .skills-img {
-        padding: 1.875rem 1.25rem 1.25rem 0.625rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    body .skills-section .skills-container .skills-box .skills-img-2 {
-        padding: 1.875rem 1.25rem 1.25rem 0.625rem;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 0.625rem;
-    }
-    body .skills-section .skills-container .skills-box .skills-img img h1 {
-        background-color: #D5D5DB;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 4;
-    }
-    body .skills-section .skills-container .skills-grid .skills-box h1 {
-        padding-top: 0.625rem;
-        color: #E2E2E5;
-        text-align: center;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    body .skills-section .skills-container .skills-grid2 .skills-box h1 {
-        padding-top: 0.625rem;
-        color: #E2E2E5;
-        text-align: center;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    body .skills-section .skills-container .skills-grid3 .skills-box h1 {
-        padding-top: 0.625rem;
-        color: #E2E2E5;
-        text-align: center;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    body .skills-section .skills-container .skills-box p {
-        padding-top: 1.875rem;
-        margin-left: 3.125rem;
-        margin-right: 3.125rem;
-        color: #8A8A8F;
-        text-align: center;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    /* eclipse 3 : pink*/
-    body .landing-page .eclipse-3 {
-        position: relative;
-    }
-    body .landing-page .eclipse-3 .image3 {
-        position: absolute;
-        right: 0px;
-        top: 0px;
-        filter: blur(180px);
-        z-index: 1;
-    }
-    /* projects-section */
-    body .projects-section {
-        background: #E2E2E5;
-    }
-    body .projects-section .projects {
-        padding: 6rem;
-    }
-    body .projects-section .projects p span {
-        color: #11C92E;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    body .projects-section .projects h6 {
-        color: #151620;
-        font-family: Heebo;
-        font-size: 1.75rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.02rem;
-    }
-    body .arrow-down {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 0vh;
-        position: relative;
-    }
-    body .arrow-down .white {
-        height: 40px;
-        width: 40px;
-        border-radius: 50%;
-        background-color: #ffff;
-    }
-    body .arrow-down .white img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 40px;
-        width: 40px;
-    }
-    /* about me  */
-    body .about-me {
-        background-color: #181923;
-    }
-    body .about-me .about {
-        padding: 6rem;
-    }
-    body .about-me .about p span {
-        color: #11C92E;
-        font-family: Heebo;
-        font-size: 1.25rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-    }
-    body .about-me .about h6 {
-        color: #E2E2E5;
-        font-family: Heebo;
-        font-size: 1.75rem;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        letter-spacing: 0.02rem;
-    }
-    body .about-me .about .about-container {
-        display: flex;
-        
-    }
-    body .about-me .about .about-container p {
-        padding-top: 1.75rem;
-        width: 37.5rem;
-        color: #F4F4F4;
-        font-family: Heebo;
-        font-size: 1.125rem;
-        font-style: normal;
-        font-weight: 300;
-        line-height: normal;
-        letter-spacing: 0.0125rem;
-        /* border: 1px solid white; */
-    }
-    body .about-me .about .about-container .image-container {
-        padding-top: 1.75rem;
-        padding-left: 11rem;
-        border-radius: 1.25rem;
-        background-color: #181923;
-        display: inline-block;
-    }
-    body .about-me .about .about-container img {
-        width: 26.9375rem;
-        height: 26.6875rem;
-        border-radius: inherit;
-    }
 }
