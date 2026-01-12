@@ -1,0 +1,40 @@
+/* Resume Item Styles */
+.resume-item {
+    border-left: 2px solid var(--secondary);
+    padding-left: 1.5rem;
+    position: relative;
+}
+
+.resume-item::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -6px;
+    width: 10px;
+    height: 10px;
+    background-color: var(--primary);
+    border: 2px solid var(--secondary);
+    border-radius: 50%;
+}
+
+.resume-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.resume-item ul li {
+    margin-bottom: 0.5rem;
+    position: relative;
+    padding-left: 1rem;
+    color: rgba(236, 232, 225, 0.7);
+    font-size: 0.95rem;
+}
+
+.resume-item ul li::before {
+    content: '>';
+    position: absolute;
+    left: 0;
+    color: var(--secondary);
+    font-size: 0.8rem;
+    top: 2px;
+}
